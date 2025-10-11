@@ -1,0 +1,247 @@
+/* ESTILOS INDEX */
+
+.hero-index {
+    height: 60vh; 
+    background-image: url('../imagenes/banner-index.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.7); 
+    background-blend-mode: multiply;
+}
+
+.card-reto {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-reto:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15); 
+}
+
+.card-reto .card-title {
+    font-weight: bold;
+    color: #333;
+}
+
+.card-reto .btn {
+    opacity: 0; 
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.card-reto:hover .btn {
+    opacity: 1; 
+    transform: translateY(0);
+}
+
+
+/* ESTILOS PARA EL RETO 1 */
+
+.reto1-titulo {
+    font-family: serif;
+}
+
+.btn-custom-red {
+    background-color: #cb2d2a;
+    border-color: #cb2d2a;
+    color: white;
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 4px;
+}
+
+.btn-custom-red:hover {
+    background-color: #a92522;
+    border-color: #a92522;
+    color: white;
+}
+
+
+/* ESTILOS PARA EL RETO 2 */
+
+.icono-naranja {
+    background-color: #f08c28;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono-naranja i {
+    color: white; 
+    font-size: 50px; 
+}
+
+.btn-custom-orange {
+    background-color: #f08c28;
+    border-color: #f08c28;
+    color: white;
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 4px;
+}
+
+.btn-custom-orange:hover {
+    background-color: #000000;
+    border-color: #000000;
+    color: white;
+}
+
+
+/* ESTILOS PARA EL RETO 3 */
+
+.titulo-oferta {
+    padding-bottom: 10px; 
+    border-bottom: 1px solid #e0e0e0; 
+    margin-bottom: 15px; 
+    font-weight: bold;
+}
+
+.contenedor-icono-lineas {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0; 
+}
+
+.contenedor-icono-lineas::before,
+.contenedor-icono-lineas::after {
+    content: ''; 
+    flex-grow: 1; 
+    height: 3px; 
+    background-color: #cb2d2a; 
+    max-width: 200px; 
+}
+
+.contenedor-icono-lineas i {
+    color: #cb2d2a; 
+    margin: 0 15px; 
+}
+
+
+/* ESTILOS PARA EL RETO 5 */
+
+.col-color {
+    padding: 40px 30px;
+    color: white;
+    height: 100%;
+}
+
+.col1 {
+    background-color: #ff0000c7;
+}
+
+.col2 {
+    background-color: #fdec00;
+}
+
+.col3 {
+    background-color: #1dfc00;
+}
+
+
+/* ESTILOS PARA EL RETO 6 */
+
+.banner-reto6 {
+    position: relative;
+    background-image: url('../imagenes/banner1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(40, 40, 40, 0.6);
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.7);
+}
+
+
+/* ESTILOS PARA EL RETO 7 */
+
+.galeria-molde > figure {
+    aspect-ratio: 4 / 3; 
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0; 
+}
+
+.galeria-molde > figure > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.galeria-molde > figure > figcaption {
+    background-color: rgba(79, 23, 209, 0.7);
+    color: white;
+}
+
+
+/* ESTILOS PARA EL RETO 8 */
+
+.banner-reto8 {
+    position: relative;
+    height: 90vh;
+    background-image: url('../imagenes/banner2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+}
+
+.logo-reto8 {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+.logo-reto8 img {
+    width: 150px;
+}
+
+.btn-reto8 {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-reto8:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn-reto8 i {
+    vertical-align: middle;
+    font-size: 1.2rem;
+}
+
+
+/* ESTILOS PARA EL RETO 9 */
+
+.card-logo-link {
+    text-decoration: none;
+}
+
+.card-logo-link .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    border: 1px solid #e0e0e0; 
+}
+
+.card-logo-link:hover .card {
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12); 
+}
+
+.card-logo-link .card img {
+    max-height: 100px; 
+    width: auto; 
+}
